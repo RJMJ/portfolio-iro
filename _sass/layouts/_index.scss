@@ -28,6 +28,9 @@
   .excerpt {
     margin-top: 1em;
   }
+  h2 {
+    text-align: center;
+  }
 }
 
 // Work listing
@@ -35,6 +38,7 @@
   @extend %padding-regular;
   background-size: $feature-image-size;
   border-bottom: 1px solid $border-color;
+  text-align: center;
   li {
     width: 32%;
     margin-right:0.5%;
